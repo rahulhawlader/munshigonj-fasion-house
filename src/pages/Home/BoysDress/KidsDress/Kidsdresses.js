@@ -9,7 +9,7 @@ const Kidsdresses = () => {
     return (
         <>
 
-            <h4 className='text-center text-3xl text-green-600'> Kids Boys Dress </h4>
+            <h4 className='text-center text-3xl text-white'> Kids Boys Dress </h4>
             <div className='w-11/12 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10' >
 
                 {/* {kidsDresses.length} */}
@@ -20,6 +20,9 @@ const Kidsdresses = () => {
                     ></KidsDress>)
                 }
 
+            </div>
+            <div className='flex justify-center '>
+                <button class=" btn btn-link  text-white  font-bold">see more</button>
             </div>
 
         </>
