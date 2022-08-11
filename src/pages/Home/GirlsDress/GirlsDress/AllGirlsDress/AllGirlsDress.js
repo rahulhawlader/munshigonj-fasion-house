@@ -1,11 +1,10 @@
 import React from 'react';
-import './GirlsDress.css'
 
-const GirlsDress = ({ girlsDress }) => {
+const AllGirlsDress = ({ girlsDress }) => {
     const { name, img, price, color } = girlsDress;
     return (
         <div>
-            <div class="card w-96 text-white bg-black shadow-xl">
+            <div class="card  text-white bg-black shadow-xl">
                 <figure class="px-10 pt-10">
                     <img src={img} alt="Shoes" class="rounded-xl styl" />
                 </figure>
@@ -22,4 +21,4 @@ const GirlsDress = ({ girlsDress }) => {
     );
 };
 
-export default GirlsDress;
+export default AllGirlsDress;

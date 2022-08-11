@@ -1,10 +1,11 @@
 import React from 'react';
 import UserKidsGiDress from '../../../../Hooks/UserKidsGiDress';
 import KidsGiDress from './KidsGiDress';
+import { Link } from 'react-router-dom';
 
 
 const KidsGiDresses = () => {
-    const [kidsGiDresses, setKidsGiDresses] = UserKidsGiDress([])
+    const [kidsGiDresses] = UserKidsGiDress([])
 
     return (
         <>
@@ -18,7 +19,10 @@ const KidsGiDresses = () => {
                 }
             </div>
             <div className='flex justify-center '>
-                <button class=" btn btn-link  text-black font-bold  ">see more</button>
+                <Link to="/allKidsGirlsDresses">
+
+                    < button class=" btn btn-link  text-black font-bold  ">see more</button>
+                </Link>
             </div>
         </>
     );

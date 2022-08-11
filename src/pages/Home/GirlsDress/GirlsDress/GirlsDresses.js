@@ -1,6 +1,8 @@
 import React from 'react';
 import UserGirlsDress from '../../../../Hooks/UserGirlsDress';
 import GirlsDress from './GirlsDress';
+import { Link } from 'react-router-dom';
+
 
 const GirlsDresses = () => {
     const [girlsDresses, setGirlsDresses] = UserGirlsDress([]);
@@ -16,7 +18,10 @@ const GirlsDresses = () => {
                 }
             </div>
             <div className='flex justify-center '>
-                <button class=" btn btn-link  text-black font-bold ">see more</button>
+                <Link to="/allGirlsDresses">
+
+                    <button class=" btn btn-link  text-black font-bold ">see more</button>
+                </Link>
             </div>
         </>
     );

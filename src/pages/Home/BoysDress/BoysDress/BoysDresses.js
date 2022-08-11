@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UserBoysDress from '../../../../Hooks/UserBoysDress';
 import BoysDress from '../../../Home/BoysDress/BoysDress/boysDress.js/BoysDress'
 
@@ -17,7 +18,9 @@ const BoysDresses = () => {
 
             </div>
             <div className='flex justify-center '>
-                <button class=" btn btn-link  text-white font-bold ">see more</button>
+                <Link to="/boysAllDresses">
+                    <button class=" btn btn-link  text-white font-bold ">see more</button>
+                </Link>
             </div>
 
         </>

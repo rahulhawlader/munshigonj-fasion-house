@@ -1,20 +1,20 @@
 import React from 'react';
-import './GirlsDress.css'
 
-const GirlsDress = ({ girlsDress }) => {
-    const { name, img, price, color } = girlsDress;
+const AllKidsGirlsDress = ({ kidsGiDress }) => {
+    const { name, img, color, price } = kidsGiDress;
     return (
         <div>
-            <div class="card w-96 text-white bg-black shadow-xl">
+            <div class="card bg-black shadow-xl   text-white">
                 <figure class="px-10 pt-10">
-                    <img src={img} alt="Shoes" class="rounded-xl styl" />
+                    <img src={img} alt="Dress" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Dress Name:- {name}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <p>Price:- ${price}   Color:- {color}</p>
+
                     <div class="card-actions">
-                        <button class="btn bg-white hover:bg-white text-black">Buy Now</button>
+                        <button class="btn hover:bg-white bg-white text-black">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -22,4 +22,4 @@ const GirlsDress = ({ girlsDress }) => {
     );
 };
 
-export default GirlsDress;
+export default AllKidsGirlsDress;

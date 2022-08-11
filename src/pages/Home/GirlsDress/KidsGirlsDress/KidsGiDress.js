@@ -14,7 +14,7 @@ const KidsGiDress = ({ kidsGiDres }) => {
                     <p>Price:- ${price}   Color:- {color}</p>
 
                     <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn hover:bg-white bg-white text-black">Buy Now</button>
                     </div>
                 </div>
             </div>

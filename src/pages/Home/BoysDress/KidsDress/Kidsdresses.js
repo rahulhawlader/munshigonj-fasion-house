@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UserKidsDress from '../../../../Hooks/UserKidsDress';
 import KidsDress from './KidsDress';
 
@@ -22,7 +23,7 @@ const Kidsdresses = () => {
 
             </div>
             <div className='flex justify-center '>
-                <button class=" btn btn-link  text-white  font-bold">see more</button>
+                <Link to="/kidAllDressses"><button class=" btn btn-link  text-white  font-bold"> see more </button> </Link>
             </div>
 
         </>
