@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
-        <div class="navbar bg-base-100 text-white bg-gray-800 sticky top-0 z-50">
+        <div class="navbar  text-white bg-gray-800 sticky top-0 z-50">
             <div class="navbar-start text-pink-600">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ const Navber = () => {
                         <li><Link to="/AllGirlsDress">GirlsAllDress</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contack">Contack</Link></li>
-                        <li><Link to="/Login">Login</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost normal-case text-xl">Munshigonj Fasion House</a>

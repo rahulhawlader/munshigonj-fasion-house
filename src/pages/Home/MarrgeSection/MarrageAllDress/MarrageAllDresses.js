@@ -8,12 +8,12 @@ const MarrageAllDresses = () => {
     const [marrageDresses] = UserMarrageDress([])
     return (
         <>
-            <div  >
+            <div className='mt-5' >
 
                 <h3 className='text-center font-bold text-4xl text-white my-10' > Marrage Couple Dresses</h3>
-                <h3 className='text-red-400 text-3xl bg-black p-2 font-bold'> <Marquee>All New Dresses  </Marquee></h3>
+                <h3 className='text-red-400 text-3xl bg-black p-2 font-bold mb-5'> <Marquee>All New Dresses  </Marquee></h3>
 
-                <div className='w-11/12 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10'>
+                <div className='w-11/12 mx-auto grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                     {
                         marrageDresses.map(marrageDress => <MarrageDress
                             key={marrageDress._id}

@@ -1,0 +1,11 @@
+.reviews-border {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 30px red inset;
+}
+
+
+.star-flex {
+    display: flex;
+}

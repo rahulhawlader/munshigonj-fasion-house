@@ -13,6 +13,7 @@ import AllKidsGirlsDresses from './pages/Home/GirlsDress/KidsGirlsDress/AllKidsG
 
 import Home from './pages/Home/Home/Home';
 import MarrageAllDresses from './pages/Home/MarrgeSection/MarrageAllDress/MarrageAllDresses';
+import Login from './pages/Login/Login/Login';
 import Footer from './pages/Shared/Footer/Footer';
 
 import Navber from './pages/Shared/Navber';
@@ -40,6 +41,7 @@ function App() {
         <Route path='/Contack' element={<Contack />} ></Route>
 
         <Route path='/About' element={<About />} ></Route>
+        <Route path='/login' element={<Login />} ></Route>
 
 
       </Routes>
